@@ -4,7 +4,7 @@ include('header.php');
 ?>
 <h1>Historico</h1>
 
-<div class="conthist">
+<div class="conthist" >
     <button><a href="index.php">Agregar equipo</a></button>
     <br><br>
 
@@ -34,8 +34,9 @@ include('header.php');
             ?>
 
 
-        </select>
+        </select><br><br>
 
+        <div class="ovr">
         <table>
             <tr>
                 <th>&nbsp</th>
@@ -101,7 +102,7 @@ include('header.php');
             ?>
 
         </table>
-
+        </div>
         <?php
         include('footer.php');
 

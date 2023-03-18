@@ -45,9 +45,15 @@ div {
 }
 
 .conthist {
-  width: 80%;
+  width: 90%;
   margin: auto;
   padding: 1%;
+
+}
+
+.ovr {
+  overflow-x: auto;
+  border: 0;
 }
 
 
@@ -72,8 +78,6 @@ table {
 
   border: 3px outset rgb(113, 113, 113);
   margin: auto;
-  width: 90%;
-
 }
 
 tr,
@@ -120,7 +124,7 @@ input[type=text],
 input[type=date],
 input[type=number],
 input[type=email] {
-  
+
   margin: 0.1%;
   background-color: antiquewhite;
   text-decoration: none;
