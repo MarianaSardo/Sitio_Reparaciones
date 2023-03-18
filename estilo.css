@@ -60,6 +60,7 @@ div {
 .contindex {
   width: 70%;
   padding: 5%;
+  overflow-x: auto;
 }
 
 .conthist,
