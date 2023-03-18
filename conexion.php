@@ -1,5 +1,5 @@
 <?php
-  $servername = "localhost";
+/*  $servername = "localhost";
   $username = "root";
   $password = "";
   $dbname = "reparaciones";
@@ -11,5 +11,17 @@
   if ($conexion->connect_error) {
      die("Connection failed: " . $conexion->connect_error);
   }
+*/
+
+session_start();
+
+$MYSQLHOST=$_ENV["MYSQLHOST"];
+$MYSQLDATABASE=$_ENV["MYSQLDATABASE"];
+$MYSQLPASSWORD=$_ENV["MYSQLPASSWORD"];
+$MYSQLPORT=$_ENV["MYSQLPORT"];
+$MYSQLUSER=$_ENV["MYSQLUSER"];
+
+
+$conexion=mysqli_connect("$MYSQLHOST","$MYSQLUSER","$MYSQLPASSWORD","$MYSQLNAME","$MYSQLPORT");
 
 ?>
