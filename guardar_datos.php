@@ -22,10 +22,12 @@ $fechaEntrega = "00/00/0000";
 
 $sql = "INSERT INTO reparar (fecha,nombre,telefono,mail,producto,marca,numSerie,modelo,problema,diagnostico,repuesto,costoRepuesto,costoTotal,estado) VALUES ('$fecha','$nombre','$telefono','$mail','$producto','$marca','$numSerie','$modelo','$problema','$diagnostico','$repuesto','$costoRepuesto','$costoTotal','$estado','$fechaEntrega')";
 
+
+echo $sql;
 mysqli_query($conexion, $sql);
 
 
 
-header("location:historico.php?nombre=1");
+//header("location:historico.php?nombre=1");
 
 ?>
