@@ -69,7 +69,8 @@ div {
 
 .contrep {
   background-color: rgb(181, 181, 181);
-  width: 60%;
+  max-width: 60%;
+  min-witdh: 40%;
   margin-left: 1%;
   padding: 5%;
 }
