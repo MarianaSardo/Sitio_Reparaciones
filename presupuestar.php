@@ -30,7 +30,7 @@ include('header.php');
                 <label for="repuesto">Nombre del repuesto:</label>
                 <input type="text" name="repuesto" id="repuesto" placeholder="Repuesto" pattern="[a-zA-Z\s]+"><br>
                 <label for="costoRepuesto">Costo del Repuesto: </label>
-                $ <input type="text" name="costoRepuesto" id="costoRepuesto" placeholder="123.4" pattern="[0-9]+" >
+                $ <input type="number" name="costoRepuesto" id="costoRepuesto" placeholder="123.4" min="0" >
             </div>
             <br>
             <label for="costoTotal">Costo total de la reparacion:</label>
