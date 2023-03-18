@@ -3,7 +3,7 @@ include('conexion.php');
 
 $est = 5;
 $est1 = 6;
-
+$valores="";
 
 
 $sql = "UPDATE reparar SET ";
