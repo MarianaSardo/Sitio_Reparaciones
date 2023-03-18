@@ -17,9 +17,10 @@ $repuesto = "Sin definir";
 $costoRepuesto = 0;
 $costoTotal = 0;
 $estado = 1;
+$fechaEntrega = NULL;
 
 
-$sql = "INSERT INTO reparar (fecha,nombre,telefono,mail,producto,marca,numSerie,modelo,problema,diagnostico,repuesto,costoRepuesto,costoTotal,estado) VALUES ('$fecha','$nombre','$telefono','$mail','$producto','$marca','$numSerie','$modelo','$problema','$diagnostico','$repuesto','$costoRepuesto','$costoTotal','$estado')";
+$sql = "INSERT INTO reparar (fecha,nombre,telefono,mail,producto,marca,numSerie,modelo,problema,diagnostico,repuesto,costoRepuesto,costoTotal,estado) VALUES ('$fecha','$nombre','$telefono','$mail','$producto','$marca','$numSerie','$modelo','$problema','$diagnostico','$repuesto','$costoRepuesto','$costoTotal','$estado','$fechaEntrega')";
 
 mysqli_query($conexion, $sql);
 
