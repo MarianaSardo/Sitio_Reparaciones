@@ -69,9 +69,10 @@ div {
 
 .contrep {
   background-color: rgb(181, 181, 181);
-  max-width: 60%;
-  overflow-x: auto;
+  width: 60%;
+  margin-left: 1%;
   padding: 5%;
+  overflow-x: auto;
 }
 
 table {
