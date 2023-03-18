@@ -70,7 +70,6 @@ div {
 .contrep {
   background-color: rgb(181, 181, 181);
   max-width: 60%;
-  min-witdh: 40%;
   overflow-x: auto;
   padding: 5%;
 }
