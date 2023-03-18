@@ -63,7 +63,7 @@ include('header.php');
 
             while ($registro = mysqli_fetch_array($resultado)) {
 
-                $aux1 = "location.href='Presupuestar.php?numOrden=" . $registro["numOrden"] . "'";
+                $aux1 = "location.href='presupuestar.php?numOrden=" . $registro["numOrden"] . "'";
                 $aux2 = "location.href='entrega.php?numOrden=" . $registro["numOrden"] . "'";
                 $aux3 = "location.href='reparacion.php?numOrden=" . $registro["numOrden"] . "'";
 
