@@ -118,6 +118,7 @@ button {
 
 input[type=text],
 input[type=date],
+input[type=number],
 input[type=email] {
   
   margin: 0.1%;
@@ -126,6 +127,16 @@ input[type=email] {
   font-family: 'Trispace', sans-serif;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
 
 footer {
   position: fixed;
