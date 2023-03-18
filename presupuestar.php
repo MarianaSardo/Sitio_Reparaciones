@@ -22,7 +22,7 @@ include('header.php');
 
  echo '<form action="modificar_guardar.php?numOrden='.$aux.'"" method="post">
             <label for="diagnostico">Diagnostico: </label>
-            <input type="text" name="diagnostico" id="diagnostico"><br>
+            <input type="text" name="diagnostico" id="diagnostico" placeholder="Diagnostico detalle" pattern="[a-zA-Z\s]+"><br>
 
 
             <h3>Repuesto:</h3>
