@@ -1,10 +1,10 @@
 <?php
-
+include('conexion.php');
 
 $est = 5;
 $est1 = 6;
 
-include('conexion.php');
+
 
 $sql = "UPDATE reparar SET ";
 
