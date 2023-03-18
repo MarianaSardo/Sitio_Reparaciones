@@ -28,13 +28,13 @@ include('header.php');
             <h3>Repuesto:</h3>
             <div class="contrep">
                 <label for="repuesto">Nombre del repuesto:</label>
-                <input type="text" name="repuesto" id="repuesto"><br>
+                <input type="text" name="repuesto" id="repuesto" placeholder="Repuesto" pattern="[a-zA-Z\s]+"><br>
                 <label for="costoRepuesto">Costo del Repuesto: </label>
-                <input type="text" name="costoRepuesto" id="costoRepuesto">
+                $ <input type="text" name="costoRepuesto" id="costoRepuesto" placeholder="123.4" pattern="[0-9]+" >
             </div>
             <br>
             <label for="costoTotal">Costo total de la reparacion:</label>
-            <input type="costoTotal" name="costoTotal" id="costoTotal"><br><br>
+            <input type="costoTotal" name="costoTotal" id="costoTotal" title="Costo de la mano de obra + costo de repuesto" placeholder="123.4" pattern="[0-9]+"><br><br>
             <label for="fechaEntrega"> Fecha de entrega: 
                 <input type="date" id="fechaEntrega" name="fechaEntrega" value="'.$registro["fechaEntrega"].'" required>
                 </label> <br><br>

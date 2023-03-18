@@ -1,115 +1,153 @@
-
 @font-face {
-    font-family: byte;
-    src: url('bytes.otf');
+  font-family: byte;
+  src: url('bytes.otf');
 }
 
-body{
+body {
 
-    background: rgb(102, 102, 102);
-    background: linear-gradient(45deg, rgb(128, 128, 128) 0%, rgb(105, 105, 105) 100%) fixed;
-    font-family: 'Trispace', sans-serif;
+  background: rgb(102, 102, 102);
+  background: linear-gradient(45deg, rgb(128, 128, 128) 0%, rgb(105, 105, 105) 100%) fixed;
+  font-family: 'Trispace', sans-serif;
+  margin: 0;
 }
 
- 
-h1{
-    font-family: byte;
-    text-align: center;
-    font-size: 50px;
-    background: -webkit-linear-gradient(rgb(0, 4, 255), rgb(255, 255, 255));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-	text-shadow: -2px -2px rgba(0, 0, 0, 0.078);
-}
+html {
 
-h3{
-    font-family: byte;
-      font-size: 30px;
-    background: -webkit-linear-gradient(rgb(94,94,94),rgb(0, 4, 255));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-	text-shadow: -1px -1px rgba(0, 0, 0, 0.078);
-}
-
-div{
-    margin: auto;
-	border: 3px outset rgb(113, 113, 113); 
-    text-align: left; 
-    text-shadow: -1px -1px rgba(0, 0, 0, 0.078);
-    color: black;
-}
-
-.conthist{
-    width: 80%;
-    margin: auto;
-    padding: 1%;
+  height: 100%;
 }
 
 
-.contindex{
-    width: 70%;
-    padding: 5%;
+h1 {
+  font-family: byte;
+  text-align: center;
+  font-size: 50px;
+  background: -webkit-linear-gradient(rgb(0, 4, 255), rgb(255, 255, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: -2px -2px rgba(0, 0, 0, 0.078);
 }
 
-.conthist, .contindex{
-    background-color: rgb(175, 175, 175);
+h3 {
+  font-family: byte;
+  font-size: 30px;
+  background: -webkit-linear-gradient(rgb(94, 94, 94), rgb(0, 4, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: -1px -1px rgba(0, 0, 0, 0.078);
 }
 
-.contrep{
-    background-color: rgb(181, 181, 181);
-    width: 60%;
-    margin-left: 1%;
-    padding: 5%;
+div {
+  margin: auto;
+  border: 3px outset rgb(113, 113, 113);
+  text-align: left;
+  text-shadow: -1px -1px rgba(0, 0, 0, 0.078);
+  color: black;
+}
+
+.conthist {
+  width: 80%;
+  margin: auto;
+  padding: 1%;
 }
 
 
-table{
-    border: 3px outset rgb(113, 113, 113); 
-    margin: auto;
-    width: 90%;
-      
+.contindex {
+  width: 70%;
+  padding: 5%;
 }
 
-tr,td{
-    background-color: rgb(203, 202, 202);
-    text-align: center;
+.conthist,
+.contindex {
+  background-color: rgb(175, 175, 175);
 }
 
-  a:visited {
-    color: rgb(0, 0, 0);
-  }
+.contrep {
+  background-color: rgb(181, 181, 181);
+  width: 60%;
+  margin-left: 1%;
+  padding: 5%;
+}
 
-  select {
-    background-color: antiquewhite;
-    border: 3px outset rgb(131, 131, 131); 
-    text-decoration: none;
-    cursor: pointer;
-    font-family: 'Trispace', sans-serif;
-  }
+table {
 
-  input[type=button], input[type=submit], input[type=reset] {
-    background-color: rgb(179, 179, 179);
-    border: 3px outset rgb(131, 131, 131); 
-    text-decoration: none;
-    cursor: pointer;
-    font-family: 'Trispace', sans-serif;
-  }
+  border: 3px outset rgb(113, 113, 113);
+  margin: auto;
+  width: 90%;
 
-  button {
-    background-color: rgb(179, 179, 179);
-    border: 3px outset rgb(131, 131, 131); 
-    text-decoration: none;
-    cursor: pointer;
-    font-family: 'Trispace', sans-serif;
+}
 
-  }
+tr,
+td {
+  background-color: rgb(203, 202, 202);
+  text-align: center;
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+select {
+  background-color: antiquewhite;
+  border: 3px outset rgb(131, 131, 131);
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Trispace', sans-serif;
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+  margin: 0.1%;
+  background-color: rgb(179, 179, 179);
+  border: 3px outset rgb(131, 131, 131);
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Trispace', sans-serif;
+  padding: 0.3%;
+}
+
+button {
+  background-color: rgb(179, 179, 179);
+  border: 3px outset rgb(131, 131, 131);
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Trispace', sans-serif;
+  padding: 0.3%;
+
+}
+
+input[type=text],
+input[type=date],
+input[type=email] {
   
-input[type=text], input[type=date],input[type=email] {
-    background-color: antiquewhite;
-    text-decoration: none;
-    font-family: 'Trispace', sans-serif;
-  }
+  margin: 0.1%;
+  background-color: antiquewhite;
+  text-decoration: none;
+  font-family: 'Trispace', sans-serif;
+}
 
 
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
 
-  
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
