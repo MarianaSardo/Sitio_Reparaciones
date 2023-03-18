@@ -1,4 +1,6 @@
 <?php
+
+include('conexion.php');
 include('header.php');
 ?>
 
@@ -11,7 +13,6 @@ include('header.php');
     <?php
     $aux = $_GET["numOrden"];
 
-    include('conexion.php');
     
     $sql = "SELECT * FROM reparar WHERE numOrden='".$aux."'";
     $resultado = mysqli_query($conexion, $sql);
