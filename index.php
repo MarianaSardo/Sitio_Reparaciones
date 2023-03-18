@@ -22,11 +22,11 @@ include 'header.php';
         <input type="email" name="mail" id="mail"  placeholder="usuario@mail.com"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
         <h3>Datos del producto</h3>
         <label for="producto">Producto</label>
-        <input type="text" name="producto" id="producto"  placeholder="Electrodomestico" title="Por favor, ingrese tipo de producto" pattern="[a-zA-Z\s]+" minlength="3" maxlength="100" required><br>
+        <input type="text" name="producto" id="producto"  placeholder="Electrodomestico" title="Por favor, ingrese tipo de producto" pattern="[a-zA-Z\s]+" minlength="3" maxlength="100" required>
         <label for="marca">Marca:</label>
         <input type="text" name="marca" id="marca"  placeholder="Marca"  title="Por favor,ingrese solo la marca" pattern="[a-zA-Z\s]+" minlength="3" maxlength="100" required><br>
         <label for="numSerie">Numero de serie:</label>
-        <input type="number" name="numSerie" id="numSerie"  placeholder="123" min="0" required><br>
+        <input type="number" name="numSerie" id="numSerie"  placeholder="123" min="0" required>
         <label for="modelo">Modelo:</label>
         <input type="text" name="modelo" id="modelo"  placeholder="abc123" required><br>
         <label for="problema">Motivo de ingreso:</label>
