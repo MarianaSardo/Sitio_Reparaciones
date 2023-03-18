@@ -34,7 +34,7 @@ include('header.php');
             </div>
             <br>
             <label for="costoTotal">Costo total de la reparacion:</label>
-            <input type="costoTotal" name="costoTotal" id="costoTotal" title="Costo de la mano de obra + costo de repuesto" placeholder="123.4" pattern="[0-9]+"><br><br>
+            <input type="number" name="costoTotal" id="costoTotal" title="Costo de la mano de obra + costo de repuesto"  placeholder="123.4" min="0"><br><br>
             <label for="fechaEntrega"> Fecha de entrega: 
                 <input type="date" id="fechaEntrega" name="fechaEntrega" value="'.$registro["fechaEntrega"].'" required>
                 </label> <br><br>
