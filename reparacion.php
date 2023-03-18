@@ -1,4 +1,6 @@
 <?php
+
+include('conexion.php');
 include('header.php');
 ?>
 <h1>Reparacion</h1>
@@ -9,7 +11,6 @@ include('header.php');
 
     <?php
     $aux = $_GET["numOrden"];
-    include('conexion.php');
 
     $consulta = "SELECT * FROM reparar WHERE numOrden='" . $aux . "'";
     
