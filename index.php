@@ -19,7 +19,7 @@ include 'header.php';
         <label for="telefono">Telefono:</label>
         <input type="text" name="telefono" id="telefono"  placeholder="4751111" title="Por favor, solo ingrese n&uacute;meros" minlength="5" maxlength="12"  pattern="[0-9]+" required>
         <label for="mail">Email:</label>
-        <input type="email" name="mail" id="mail"  placeholder="usuario@mail.com"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"> required>
+        <input type="email" name="mail" id="mail"  placeholder="usuario@mail.com"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
         <h3>Datos del producto</h3>
         <label for="producto">Producto</label>
         <input type="text" name="producto" id="producto"  placeholder="Electrodomestico" title="Por favor, ingrese tipo de producto" pattern="[a-zA-Z\s]+" minlength="3" maxlength="100" required>
